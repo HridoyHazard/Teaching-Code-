@@ -1,0 +1,72 @@
+/* .container>div{
+    height: 220px;
+    width:320px;
+    color: aliceblue;
+}
+.one{
+    background-color: black;
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    z-index: 10;
+}
+.two{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    z-index: 11;
+    background-color: green;
+}
+.three{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background-color: brown;
+    z-index: 12;
+} */
+
+/* .webformet{
+    padding-top: 500px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    border: 1px solid;
+    height: 200px;
+    background-color: rgb(203, 135, 135);
+    
+
+}
+
+.left_menu {
+    width: 447px;
+    float: left;
+    border: 1px solid;
+    height: 445px;
+    background-color: rgb(161, 214, 161);
+    clear: both;
+
+}
+
+.content {
+    float: left;
+    width: 1469px;
+    border: 1px solid;
+    height: 445px;
+    background-color: rgb(102, 102, 97);
+    
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    border: 1px solid;
+    height: 100px;
+    background-color: rgb(152, 209, 221);  
+}
